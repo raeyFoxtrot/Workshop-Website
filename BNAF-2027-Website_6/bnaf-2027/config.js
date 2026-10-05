@@ -5,8 +5,8 @@
    into googleFormEmbedUrl. A short forms.gle link can open but cannot be embedded.
    Empty links are deliberately hidden; no registration is collected by this website. */
 window.FESTIVAL = {
-  dates: "Dates to be announced",
-  venue: "Venue to be announced",
+  dates: "28th-29th November 2026",
+  venue: "IIT-Kanpur",
   organizer: "Aeromodelling Club, IIT Kanpur",
   email: "", // Replace with the official contact email.
   googleFormUrl: "", // Paste your Google Form responder link here.
@@ -21,7 +21,7 @@ window.FESTIVAL = {
   ],
   // Add confirmed names and image paths here. Empty names display 'To be announced'.
   team: [
-    { name: "", role: "Festival Director", bio: "", photo: "" },
+    { name: "Dr. Shantanu Bhattacharya", role: "Faculty Coordinator", bio: "", photo: "" },
     { name: "", role: "Events Lead", bio: "", photo: "" },
     { name: "", role: "Workshops Lead", bio: "", photo: "" },
     { name: "", role: "Design & Web", bio: "", photo: "" }

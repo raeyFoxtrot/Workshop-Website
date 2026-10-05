@@ -6,14 +6,91 @@
 <title>Team | Boeing National Aeromodelling Festival 2027</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css"><script src="config.js" defer></script><script src="script.js" defer></script>
+
+<style>
+.team-directory{max-width:1100px;margin:0 auto;text-align:center}
+.team-directory .section-heading{display:block;margin-bottom:30px}
+.team-directory .page-title{font-size:clamp(3rem,5vw,5rem)}
+.team-directory .section-heading>p{max-width:none;margin:15px auto 0;font-size:1.05rem}
+.coordinator-section{padding:30px 0 38px;border-top:1px solid #a4d9ff35}
+.coordinator-section h2{font:600 1.5rem/1.35 var(--body,Arial,sans-serif);letter-spacing:0;color:#a8d8ff;margin:0 0 34px;text-align:center}
+.faculty-list,.student-list{list-style:none;margin:0;padding:0;display:grid;align-items:start;gap:32px 24px}
+.faculty-list{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:58px}
+.student-list{grid-template-columns:repeat(4,minmax(0,1fr))}
+.faculty-list>li,.student-list>li{min-width:0;padding:0;text-align:center}
+.coordinator-name,.student-list .student-name{font:700 1.17rem/1.4 var(--body,Arial,sans-serif);letter-spacing:0;margin:0 0 12px;color:#fff;text-align:center}
+.coordinator-details{margin:0;font-style:normal;font-size:1rem;line-height:1.85;color:#bed4e8;text-align:center}
+.coordinator-details p{margin:0;color:inherit;text-align:center}
+.coordinator-details a,.student-list a{color:#bed4e8;text-decoration:none;overflow-wrap:anywhere;text-underline-offset:4px}
+.coordinator-details a:hover,.student-list a:hover{color:#fff;text-decoration:underline}
+.student-list a{display:block;font-size:1rem;line-height:1.85}
+@media(max-width:900px){.student-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.faculty-list{grid-template-columns:1fr;gap:30px}.team-directory .page-title{font-size:3.3rem}.coordinator-section{padding:26px 0}.coordinator-section h2{font-size:1.3rem}.coordinator-details{font-size:.95rem}}
+@media(max-width:500px){.student-list{grid-template-columns:1fr}}
+</style>
 </head>
 <body class="theme-team">
 <a class="skip-link" href="#main">Skip to content</a>
 <div class="scroll-progress" aria-hidden="true"></div><div class="ambient-light" aria-hidden="true"></div>
 <header class="header">
-<a class="brand" href="index.html" aria-label="BNAF 2027 home"><span>BNAF<span class="brand-year"> / 27</span><small>AEROMODELLING CLUB · IIT KANPUR</small></span></a>
+<a class="brand" href="index.html" aria-label="Boeing National Aeromodelling Festival 2027 home"><span class="brand-title">Boeing National Aeromodelling Festival 2027</span><small>AEROMODELLING CLUB X TECHKRITI IIT KANPUR</small></a>
 <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Explore <span class="menu-bars" aria-hidden="true"></span></button>
 <nav id="navigation" aria-label="Main navigation"><a href="festival.html">The Festival</a><a href="workshops.html">Workshops</a><a href="gallery.html">Gallery</a><a href="team.html" aria-current="page">Team</a><a href="contact.html">Contact</a><a class="button small" href="register.html">Register</a></nav>
 </header>
-<main id="main"><span class="chapter-ghost" aria-hidden="true">04</span><div class="page-breadcrumb mono"><a href="index.html">HOME</a><span>/</span>TEAM</div><section class="section team" id="team"><div class="section-label"><span>04 / THE CREW</span><span>THE PEOPLE BEHIND THE FLIGHT</span></div><div class="section-heading"><h1 class="page-title">Ground crew.<br><em>Sky-high ambition.</em></h1><p>Aeromodelling Club, IIT Kanpur.<br>The people who plan, build and run the festival.</p></div><div class="team-grid" id="team-grid"></div></section><div class="page-next"><span class="mono">KEEP EXPLORING</span><a href="register.html">Registration ↗</a></div></main><footer><div class="footer-heading"><span class="mono">SMALL MODELS.<br>EXTRAORDINARY AMBITIONS.</span></div><a class="footer-wordmark" href="index.html">BNAF<span>’27</span></a><div class="footer-bottom"><p>Boeing National Aeromodelling Festival 2027</p><p data-text="organizer">Aeromodelling Club, IIT Kanpur</p><a href="index.html">Home ↑</a></div></footer>
-<noscript><p class="noscript">Enable JavaScript to load the workshop list, team details and registration links.</p></noscript></body></html>
+<main id="main"><div class="page-breadcrumb mono"><a href="index.html">HOME</a><span>/</span>TEAM</div><section class="section team" id="team"><div class="team-directory">
+  <div class="section-heading">
+    <h1 class="page-title">Our <em>Team.</em></h1>
+    <p>Aeromodelling Club, IIT Kanpur</p>
+  </div>
+
+  <!-- Edit faculty details below. -->
+  <section class="coordinator-section" aria-labelledby="faculty-heading">
+    <h2 id="faculty-heading">Faculty Coordinators</h2>
+    <ol class="faculty-list">
+      <li>
+        <h3 class="coordinator-name">Dr. Shantanu Bhattacharya</h3>
+        <address class="coordinator-details">
+          <p>Professor, Mechanical Engineering</p>
+          <p>IIT Kanpur</p>
+          <p>Phone: <a href="tel:+915122596056">0512-2596056</a> (office)</p>
+          <p>Email: <a href="mailto:bhattacs@iitk.ac.in">bhattacs@iitk.ac.in</a></p>
+          <p>Home page: <a href="http://home.iitk.ac.in/~bhattacs/" target="_blank" rel="noopener noreferrer">home.iitk.ac.in/~bhattacs/</a></p>
+        </address>
+      </li>
+      <li>
+        <h3 class="coordinator-name">Dr. Shantanu De</h3>
+        <address class="coordinator-details">
+          <p>Professor, Mechanical Engineering</p>
+          <p>IIT Kanpur</p>
+          <p>Phone: <a href="tel:+915122596478">0512-2596478</a> (office)</p>
+          <p>Email: <a href="mailto:sde@iitk.ac.in">sde@iitk.ac.in</a></p>
+          <p>Home page: <a href="http://home.iitk.ac.in/~sde/" target="_blank" rel="noopener noreferrer">home.iitk.ac.in/~sde/</a></p>
+        </address>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Edit student details below. Replace the repeated email addresses with each student's own address. -->
+  <section class="coordinator-section" aria-labelledby="students-heading">
+    <h2 id="students-heading">Student Coordinators</h2>
+    <ul class="student-list">
+      <li>
+        <h3 class="student-name">Ronit Roy</h3>
+        <a href="mailto:ronitr24@iitk.ac.in">ronitr24@iitk.ac.in</a>
+      </li>
+      <li>
+        <h3 class="student-name">Nishant Sharma</h3>
+        <a href="mailto:ronitr24@iitk.ac.in">ronitr24@iitk.ac.in</a>
+      </li>
+      <li>
+        <h3 class="student-name">Jija Mahajan</h3>
+        <a href="mailto:ronitr24@iitk.ac.in">ronitr24@iitk.ac.in</a>
+      </li>
+      <li>
+        <h3 class="student-name">Bala Rohit</h3>
+        <a href="mailto:ronitr24@iitk.ac.in">ronitr24@iitk.ac.in</a>
+      </li>
+    </ul>
+  </section>
+</div></section><div class="page-next"><span class="mono">KEEP EXPLORING</span><a href="register.html">Registration ↗</a></div></main><footer><div class="footer-heading"><span class="mono">SMALL MODELS.<br>EXTRAORDINARY AMBITIONS.</span></div><a class="footer-wordmark" href="index.html">BNAF<span>’27</span></a><div class="footer-bottom"><p>Boeing National Aeromodelling Festival 2027</p><p data-text="organizer">Aeromodelling Club, IIT Kanpur</p><a href="index.html">Home ↑</a></div></footer>
+</body></html>
